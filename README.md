@@ -1,4 +1,4 @@
-# Google Summer of Code 2024 Ideas 🎉
+# Google Summer of Code 2025 Ideas 🎉
 
 This page showcases project ideas that align seamlessly with our Roadmap and are an ideal fit for GSOC '24. We aim to offer valuable insights into the necessary skillset and prerequisites, along with expectations for learning throughout the project. In addition to providing a project name and a concise descriptive abstract, we've included an assessment of general difficulty (assuming you meet the requirements) and project size. You will find the project list below. The sections represent the project titles, and the subsections are structured as follows:
 
