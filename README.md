@@ -13,27 +13,29 @@ This page showcases project ideas that align seamlessly with our Roadmap and are
 
 For example, some projects may involve research tasks resulting in a small but significant output, categorized as both `Hard` in Difficulty and `350 hours` in Size. On the other hand, there might be projects with a well-defined vision, but requires a lot of time for implementation and testing, falling also into `350 hours` Size category but with an `Easy` difficulty level. In essence, Difficulty reflects the time spent for thinking, while Size corresponds to the overall time estimate for project completion.
 
-## 👉 Untyped Plutus Core Viewer, AKA Understandable Decompiled Smart Contracts
+## 👉 Connected Goods
 
 ### 🚣 Your Mission
 
-UPLC (Untyped Plutus Core) is executed on-chain and serves as the foundational layer for Cardano smart contracts. High-level languages like Aiken or Helios compile to UPLC. While it's possible to decode the binary (flat) encoded UPLC contract into its text representation, the resulting tree structure is not particularly readable. The objective of this project is to discover a more user-friendly representation of the decoded structure. We welcome rule-based or machine learning solutions that not only transform the binary form into text but also render it in a readable format, making it accessible for e.g. TypeScript developers to comprehend the actual functionality of a contract. 
+Counterfeit goods are a significant problem in the global economy. The Cardano blockchain can be used to track the provenance of goods, ensuring their authenticity and promoting transparency. The Cardano Foundation has collaborated with Georgia's National Wine Agency, the Bolnisi Winemakers Association, and Scantrust to develop the Georgian Wine Traceability Program. Furthermore, Cardano Foundation created a proof-of-concept hoodie with an integrated NFC chip that includes an encryption mechanism to ensure the authenticity of the product, which is linked to an asset on the Cardano blockchain. While this project is (open source)[https://github.com/cardano-foundation/cardano-store-poc-hoodies], it is currently not user-friendly for integration with other products and has a lot of manual steps.
+
+Your mission is to create a user-friendly tool that can be used to develop NFC-enabled products that can be tracked on the Cardano blockchain.
 
 #### 📦 Expected Outcomes
 
-We would like you to implement the viewer within a standalone React (Vite.js) app and also export the viewer component itself as a reusable component to npm. This allows other applications within the Cardano ecosystem to utilize its features.
+We would like you to implement an open-source tool that can flash NTAG DNA chips, automating and customizing the process of creating NFC-enabled products for use with blockchain technology. The [manual steps are described in the README](https://github.com/cardano-foundation/cardano-store-poc-hoodies?tab=readme-ov-file#instructions) of the hoodie PoC project. The tool should be platform-independent and ideally compatible with mobile devices, eliminating the need for external NFC writers and speeding up the creation process. Flutter, Ionic, or Tauri are preferred frameworks for the implementation.
 
-<img src="https://github.com/cardano-foundation/cf-gsoc-ideas-page-2024/assets/1525818/37084b72-2340-4a58-82e6-da34870fed37" height="360">
+<img src="https://store.cardano.org/cdn/shop/files/Diagram.png?v=1701202428&width=1000" height="360">
 
-**Source: https://aiken-lang.org/uplc**
+**Source: https://store.cardano.org/pages/authenticated-products**
 
 ### 🏄 Skills required
 
-Typescript, React.js, General understanding of Compliers and Decompliers
+Python, Rust or Javascript or Dart, NFC & Cryptography (beginner level)
 
 ### 🐋 You'll know those things after summer
 
-Cardano Smart Contracts, Plutus Core, Aiken
+Cryptography, Cardano Native Assets, NFC
 
 ### 🏋️ Difficulty
 
@@ -45,29 +47,29 @@ Intermediate
 
 ### 🎓 Possible Mentors
 
-Fabian Bormann, Satya Ranjan
+Fabian Bormann, Sebastian Bode
 
-## 👉 Cardano Peer Connect (CIP-0045) Improvements
+## 👉 Browser 2 Browser Communication: Cardano Peer Connect Improvements
 
 ### 🚣 Your Mission
 
-[CIP-0045](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0045) introduces a method for setting up a peer-to-peer communication between two browser windows on different devices, eliminating the need for a central signaling server to exchange their IP addresses. This technique allows for the injection of an API (CIP-0030) from one browser (a wallet) to another (a DApp), enabling seamless and lightweight mobile support. To resolve their deep IPs behind different NATs, this approach uses a list of public WebTorrent trackers for peer discovery. However, in many scenarios, when the user is on a mobile device and aims to connect a wallet to a DApp in a browser on the same device, or in another situation where the user is on the same local network and wants to link the wallet on a phone to a DApp on the PC, the use of a torrent tracker becomes unnecessary due to the absence of NAT involvement. Furthermore, there's currently a bit of a hassle in switching between a browser-based wallet and a website, for instance, to sign a message. 
+[CIP-0045](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0045) introduces a method for setting up peer-to-peer communication between two browser windows on different devices, eliminating the need for a central signaling server to exchange their IP addresses. This technique allows for the injection of an API and making calls between the peers. To resolve their deep IPs behind different NATs, this approach uses a list of public WebTorrent trackers for peer discovery. However, in many scenarios, this method is not ideal. While https://peerjs.com/ requires a central component to establish the connection, it is more reliable and would significantly improve the user experience. This technique is currently used by mobile wallets like [Eternl](https://eternl.io/), but it would be a generic solution for any kind of API injection and peer-to-peer communication.
 
 #### 📦 Expected Outcomes
 
-The mission of this project would be to investigate both topics: situation-dependent peer discovery and enhanced usability. You can explore a demo setup in the open-source repository [available here](https://github.com/fabianbormann/cip-0045-demo-implementation). At the end of this project you should have implemented the new (local) peer discover method and the enhanced usabulity features (intents, nofitfications, ...) into [this repository](https://github.com/fabianbormann/cardano-peer-connect).
+The mission is to implement a multi-stage connection mechanism and enhance the CIP-0045 standard by adding preferred methods for the connection process. A QR code or link should include a custom PeerJS server address. If this server is unreachable or has not been provided, the community PeerJS server should be preferred as a fallback. If this also becomes unreachable, the current torrent-based approach should act as a final fallback. You can explore a demo setup using the current torrent-based approach in the open-source repository [available here](https://github.com/fabianbormann/cip-0045-demo-implementation).
 
 ### 🏄 Skills required
 
-Typescript, React.js, Ionic, Node.js
+Typescript, PeerJS, WebRTC, WebTorrent (beginner level)
 
 ### 🐋 You'll know those things after summer
 
-WebTorrent, CIP-0030 (Cardano dApp-Wallet Web Bridge), Firebase Cloud Messaging SDK
+WebTorrent, WebRTC, Cardano Peer Connect
 
 ### 🏋️ Difficulty
 
-Hard
+Intermediate
 
 ### 👕 Size
 
