@@ -13,6 +13,8 @@ This page showcases project ideas that align seamlessly with our Roadmap and are
 
 For example, some projects may involve research tasks resulting in a small but significant output, categorized as both `Hard` in Difficulty and `350 hours` in Size. On the other hand, there might be projects with a well-defined vision, but requires a lot of time for implementation and testing, falling also into `350 hours` Size category but with an `Easy` difficulty level. In essence, Difficulty reflects the time spent for thinking, while Size corresponds to the overall time estimate for project completion.
 
+---
+
 ## 👉 Connected Goods
 
 ### 🚣 Your Mission
@@ -49,6 +51,8 @@ Intermediate
 
 Fabian Bormann, Sebastian Bode
 
+---
+
 ## 👉 Browser 2 Browser Communication: Cardano Peer Connect Improvements
 
 ### 🚣 Your Mission
@@ -79,6 +83,8 @@ Intermediate
 
 Fabian Bormann, Jaime Caso
 
+---
+
 ## 👉 Smart Contract Classificator
 
 ### 🚣 Your Mission
@@ -108,6 +114,8 @@ Hard
 ### 🎓 Possible Mentors
 
 Satya Ranjan, Thomas Kammerlocher, Giovanni Gargiulo
+
+---
 
 ## 👉 Enhanced Cardano Asset API Service
 
@@ -154,41 +162,13 @@ The importance of testnets in blockchain development cannot be overstated. Testn
   
 This challenge, therefore, not only enhances the capabilities of the Cardano testnet environment but also significantly contributes to the broader development ecosystem, enabling developers to build more robust, diverse, and secure applications on the Cardano blockchain.
 
-## 👉 DApp End-2-End Testing Framework
+---
+
+## 👉 Create a Graph-Native Query Layer
 
 ### 🚣 Your Mission
 
-A decentralized App (dApp) mainly consists of a frontend application that has the feature to connect itself to a wallet, but at the same time, it interacts with the blockchain. Although many Cardano dApps can utilize frameworks like Playwright or Cypress to test their click flow or business logic using mock data, testing end-to-end functionality is currently not as straightforward. The use of a public testnet in a continuous integration (CI) pipeline necessitates the dApp to maintain a test wallet with sufficient tADA or native test tokens, ensuring consistent preconditions for each run. Testing edge cases would not be that easy, as they often involve a complex set of requirements that developers must create and maintain on the public testnet.
-
-#### 📦 Expected Outcomes
-
-With yaci-devkit, we have a local testnet that developers can easily set up on a local machine or in a CI pipeline. Given our close collaboration with wallet providers in the ecosystem, your primary objective for this project will be to create and implement an architecture that seamlessly integrates a local testnet (devnet) into wallets, providing a developer-friendly experience for wallet providers and developers. Ideally, this should involve a test container with a pre-configured wallet plugin on a headless Chromium browser, along with Yaci-devkit, which expects a configuration file for managing top-ups and "genesis" amounts in wallets. A library that automates the click-flow for signing, transaction submission, etc., would be a game-changer for Cardano developers worldwide looking to test transactions, minting operations, or even smart contracts within their dApp in their CI pipeline.
-
-### 🏄 Skills Required
-
-TypeScript, Docker, Bash, Cypress or Playwright, GitHub Actions, CICD, Cardano (beginner level)
-
-### 🐋 You'll Know Those Things After Summer
-
-Cardano fundamentals, such as eUTXO and dApp & Wallet communication, How to provide a test automation framework for an extensive ecosystem
-
-### 🏋️ Difficulty
-
-Hard
-
-### 👕 Size
-
-175 hours
-
-### 🎓 Possible Mentors
-
-Satya Ranjan, Thomas Kammerlocher, Giovanni Gargiulo, Fabian Bormann
-
-## 👉 Create a graph-native query layer for Cardano
-
-### 🚣 Your Mission
-
-Cardano DLT is based on the [eUTxO (Extended Unspent Transaction Output) model][eutxo-model], which in practice, generates an heterogeneous (decentralized) data lake of [un]structured data that is inherently more similar to a graph than to just a transactional ledger of balances, and doing (semantic) searches for relationships between different entities across the huge amounts of data the blockchain users produce, should be much cheaper in terms of computational resources and therefore, usually quicker, [using a graph-native database than a non-native (such as relational ones)][neo4j-native-vs-non-native]; also while crafting the queries to analyse data.
+Cardano distributed ledger technology is based on the [eUTxO (Extended Unspent Transaction Output) model][eutxo-model], which in practice, generates an heterogeneous (decentralized) data lake of [un]structured data that is inherently more similar to a graph than to just a transactional ledger of balances, and doing (semantic) searches for relationships between different entities across the huge amounts of data the blockchain users produce, should be much cheaper in terms of computational resources and therefore, usually quicker, [using a graph-native database than a non-native (such as relational ones)][neo4j-native-vs-non-native]; also while crafting the queries to analyse data.
 
 While there are currently multiple alternatives to feed Cardano events into relational databases such as `postgres`, message queues such `kafka` or virtually any data store using webhooks, and although some PoCs (using [oura][oura-dgraph-poc] and [yaci][yaci-fluree-poc]) exist to store Cardano events into [dGraph][dgraph] or [Fluree][fluree] graph-native solutions, there is no ready-to-consume API nor queries that makes use of a graph-native database as storage engine. 
 
