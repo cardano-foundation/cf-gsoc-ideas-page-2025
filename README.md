@@ -53,7 +53,7 @@ Fabian Bormann, Sebastian Bode
 
 ---
 
-## 👉 Browser 2 Browser Communication: Cardano Peer Connect Improvements
+## 👉 Ultimate Decentralized WebRTC Connector
 
 ### 🚣 Your Mission
 
