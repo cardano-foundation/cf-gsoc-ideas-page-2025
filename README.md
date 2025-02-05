@@ -105,7 +105,7 @@ Classification algorithms, Data Science, Cardano Smart Contracts, deep insights 
 
 ### 🏋️ Difficulty
 
-Hard 
+Hard
 
 ### 👕 Size
 
@@ -131,7 +131,7 @@ The project's output will be a fully functional API service capable of handling 
 
 - Proficiency in Javascript(recommended) or Java, for minting assets.
 - Experience with RESTful API development.
-- Familiarity with blockchain technology, specifically Cardano's ecosystem. 
+- Familiarity with blockchain technology, specifically Cardano's ecosystem.
 - Understanding of Cardano's native tokens and NFTs as per CIPs (like CIP-25, CIP-54, CIP-27, CIP-60, CIP-68).
 
 ### 🐋 You'll Know Those Things After Summer
@@ -159,7 +159,7 @@ The importance of testnets in blockchain development cannot be overstated. Testn
 - Ensuring the security and stability of new features before they are deployed on the mainnet.
 - Allowing developers to test the integration of different asset types and ensure compatibility with various wallet and explorer applications.
 - Facilitating the development and testing of smart contracts under real-world conditions without the associated risks.
-  
+
 This challenge, therefore, not only enhances the capabilities of the Cardano testnet environment but also significantly contributes to the broader development ecosystem, enabling developers to build more robust, diverse, and secure applications on the Cardano blockchain.
 
 ---
@@ -170,7 +170,7 @@ This challenge, therefore, not only enhances the capabilities of the Cardano tes
 
 Cardano distributed ledger technology is based on the [eUTxO (Extended Unspent Transaction Output) model][eutxo-model], which in practice, generates an heterogeneous (decentralized) data lake of [un]structured data that is inherently more similar to a graph than to just a transactional ledger of balances, and doing (semantic) searches for relationships between different entities across the huge amounts of data the blockchain users produce, should be much cheaper in terms of computational resources and therefore, usually quicker, [using a graph-native database than a non-native (such as relational ones)][neo4j-native-vs-non-native]; also while crafting the queries to analyse data.
 
-While there are currently multiple alternatives to feed Cardano events into relational databases such as `postgres`, message queues such `kafka` or virtually any data store using webhooks, and although some PoCs (using [oura][oura-dgraph-poc] and [yaci][yaci-fluree-poc]) exist to store Cardano events into [dGraph][dgraph] or [Fluree][fluree] graph-native solutions, there is no ready-to-consume API nor queries that makes use of a graph-native database as storage engine. 
+While there are currently multiple alternatives to feed Cardano events into relational databases such as `postgres`, message queues such `kafka` or virtually any data store using webhooks, and although some PoCs (using [oura][oura-dgraph-poc] and [yaci][yaci-fluree-poc]) exist to store Cardano events into [dGraph][dgraph] or [Fluree][fluree] graph-native solutions, there is no ready-to-consume API nor queries that makes use of a graph-native database as storage engine.
 
 #### 📦 Expected Outcomes
 
@@ -215,3 +215,42 @@ Hard
 ### 🎓 Possible Mentors
 
 Roberto C. Morano
+
+---
+
+## 👉 Proof-of-provenance for Software Artifacts
+
+### 🚣 Your Mission
+
+_Software Supply Chain_ attacks are becoming increasingly common, and sophisticated, with attackers targeting software forges, code & artifacts repository, or even [taking over maintenance of well-known packages to inject backdoors](https://en.wikipedia.org/wiki/XZ_Utils_backdoor). This is particularly concerning for software powering global networks like Cardano which is used to manage valuable assets.
+
+On the other hand Cardano itself, being an extremely resilient, highly available, and decentralised network, could be a solid foundation to increase the security and traceability of software supply-chains. Providing signed and verifiable _proofs-of-provenance_ on-chain, stable identities, and tools and processes to trace and verify any software artifact to their author(s), would allow both software providers and consumers to build a strong web of trust.
+
+Your mission will consist in building such a system, comprising of an on-chain part, e.g. _smart contracts_, to enforce rules about software releases and signatures on-chain, and an off-chain part itself divided in two sub-parts: a web API and site to provide a central point for sharing informations about published artifacts, and SDKs in at least two major languages (e.g. Java, Go, Python, JS/TS) to ease publication and verification workflows in software development lifecycle.
+
+Some details are available [here](https://github.com/pragma-org/pop).
+
+### 🏄 Skills required
+
+DevOps, Web API and apps development, software forges
+
+Note:
+
+* We do not prescribe the language or tech stack to be used, this will be informed by the need to interact with Cardano network.
+* No prior knowledge of Cardano is required as the focus of the work is on the developers' facing part
+
+### 🐋 You'll know those things after summer
+
+Software supply-chain attacks and mitigation, software development lifecycle, forges ecosystem and supply-chain security
+
+### 🏋️ Difficulty
+
+Medium
+
+### 👕 Size
+
+350 hours
+
+### 🎓 Possible Mentors
+
+Arnaud Bailly
