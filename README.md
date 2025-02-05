@@ -228,6 +228,8 @@ On the other hand Cardano itself, being an extremely resilient, highly available
 
 Your mission will consist in building such a system, comprising of an on-chain part, e.g. _smart contracts_, to enforce rules about software releases and signatures on-chain, and an off-chain part itself divided in two sub-parts: a web API and site to provide a central point for sharing informations about published artifacts, and SDKs in at least two major languages (e.g. Java, Go, Python, JS/TS) to ease publication and verification workflows in software development lifecycle.
 
+Some details are available [here](https://github.com/pragma-org/pop).
+
 ### 🏄 Skills required
 
 DevOps, Web API and apps development, software forges
