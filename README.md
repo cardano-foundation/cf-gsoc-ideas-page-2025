@@ -15,6 +15,45 @@ For example, some projects may involve research tasks resulting in a small but s
 
 ---
 
+## 👉 Proof-of-provenance for Software Artifacts
+
+### 🚣 Your Mission
+
+_Software Supply Chain_ attacks are becoming increasingly common, and sophisticated, with attackers targeting software forges, code & artifacts repository, or even [taking over maintenance of well-known packages to inject backdoors](https://en.wikipedia.org/wiki/XZ_Utils_backdoor). This is particularly concerning for software powering global networks like Cardano which is used to manage valuable assets.
+
+On the other hand Cardano itself, being an extremely resilient, highly available, and decentralised network, could be a solid foundation to increase the security and traceability of software supply-chains. Providing signed and verifiable _proofs-of-provenance_ on-chain, stable identities, and tools and processes to trace and verify any software artifact to their author(s), would allow both software providers and consumers to build a strong web of trust.
+
+Your mission will consist in building such a system, comprising of an on-chain part, e.g. _smart contracts_, to enforce rules about software releases and signatures on-chain, and an off-chain part itself divided in two sub-parts: a web API and site to provide a central point for sharing informations about published artifacts, and SDKs in at least two major languages (e.g. Java, Go, Python, JS/TS) to ease publication and verification workflows in software development lifecycle.
+
+Some details are available [here](https://github.com/pragma-org/pop).
+
+### 🏄 Skills required
+
+DevOps, Web API and apps development, software forges
+
+Note:
+
+* We do not prescribe the language or tech stack to be used, this will be informed by the need to interact with Cardano network.
+* No prior knowledge of Cardano is required as the focus of the work is on the developers' facing part
+
+### 🐋 You'll know those things after summer
+
+Software supply-chain attacks and mitigation, software development lifecycle, forges ecosystem and supply-chain security
+
+### 🏋️ Difficulty
+
+Medium
+
+### 👕 Size
+
+350 hours
+
+### 🎓 Possible Mentors
+
+Arnaud Bailly
+
+---
+
 ## 👉 Connected Goods
 
 ### 🚣 Your Mission
@@ -85,85 +124,6 @@ Fabian Bormann, Jaime Caso
 
 ---
 
-## 👉 Smart Contract Classificator
-
-### 🚣 Your Mission
-
-At the moment, figuring out the purpose of a smart contract on Cardano only based on hashes and binary data is quite challenging. However, there are always identifiable patterns. Have you ever wondered how many smart contracts are actually being utilized for financial purposes? Is Cardano positioning itself as the go-to blockchain for gaming? What about smart contracts in supply chain scenarios, voting mechanisms, or even for distributing art and music? The truth is, no one really knows... yet.
-
-This mission involves developing a smart contract classifier using a combination of machine learning, statistics, and various conditions. From Convolutional Networks to Gradient Boosting Decision Trees, and even manual feature engineering – everything is on the table. The goal is to design an algorithm capable of taking a smart contract transaction and providing probabilities for different use-case labels.
-
-Whether it's addresses, reference scripts, or reference datums, we are confident that you'll create a tool that can answer the questions mentioned above. To support you in this venture, we'll assign you a mentor with previous experience as a machine learning engineer. This mentor will provide you with ground truth data, guide you on how to find it, and offer deeper insights into the world of Cardano. Towards the end of this journey, our plan is to apply your algorithm to all the on-chain contracts to create a meaningful report.
-
-### 🏄 Skills required
-
-Python, Scala, Statstics, Machine Learning (basics), Smart Contracts under Cardano (beginner level)
-
-### 🐋 You'll know those things after summer
-
-Classification algorithms, Data Science, Cardano Smart Contracts, deep insights in how Cardano actually works
-
-### 🏋️ Difficulty
-
-Hard
-
-### 👕 Size
-
-350 hours
-
-### 🎓 Possible Mentors
-
-Satya Ranjan, Thomas Kammerlocher, Giovanni Gargiulo
-
----
-
-## 👉 Enhanced Cardano Asset API Service
-
-### 🚣 Your Mission
-
-Your challenge is to elevate the utility of the Cardano testnet by developing a versatile API service. This service will automate the minting and distribution of a diverse range of Cardano blockchain assets, including NFTs and native tokens, to specified payment addresses. This project is a significant step beyond the current capabilities of the [**Cardano faucet**](https://docs.cardano.org/cardano-testnet/tools/faucet/), which is limited to dispensing Ada. By integrating various asset types defined in the Cardano Improvement Proposals (CIPs), such as [CIP-25](https://cips.cardano.org/cip/CIP-0025) (Media Token Metadata Standard) and [CIP-54](https://cips.cardano.org/cip/CIP-0054) (Cardano Smart NFTs), you will be creating a tool that is indispensable for developers. This API will serve as a critical resource, providing them with a variety of test assets to enhance the development, testing, and optimization of wallets, blockchain explorers, and other applications/dApps. Your work will play a pivotal role in simulating real-world asset handling, crucial for the rigorous testing and preparation of applications before their deployment in production environments.
-
-#### 📦 Expected Outcomes
-
-The project's output will be a fully functional API service capable of handling multiple asset types, requiring significant coding and testing.
-
-### 🏄 Skills Required
-
-- Proficiency in Javascript(recommended) or Java, for minting assets.
-- Experience with RESTful API development.
-- Familiarity with blockchain technology, specifically Cardano's ecosystem.
-- Understanding of Cardano's native tokens and NFTs as per CIPs (like CIP-25, CIP-54, CIP-27, CIP-60, CIP-68).
-
-### 🐋 You'll Know Those Things After Summer
-
-In-depth knowledge of Cardano's blockchain and asset standards
-Experience in developing and deploying scalable blockchain APIs
-Expertise in integrating diverse blockchain assets into applications
-
-### 🏋️ Difficulty
-
-Intermediate – This project involves not only the technical aspects of API development and blockchain integration but also requires a deep understanding of the Cardano blockchain's native asset standards.
-
-### 👕 Size
-
-350 hours
-
-### 🎓 Possible Mentors
-
-Jaime Caso
-
-### 🌍 Importance of Testnets in Blockchain Development
-
-The importance of testnets in blockchain development cannot be overstated. Testnets provide a sandbox environment where developers can experiment and test their applications without risking real funds or impacting the main blockchain. They are crucial for:
-
-- Ensuring the security and stability of new features before they are deployed on the mainnet.
-- Allowing developers to test the integration of different asset types and ensure compatibility with various wallet and explorer applications.
-- Facilitating the development and testing of smart contracts under real-world conditions without the associated risks.
-
-This challenge, therefore, not only enhances the capabilities of the Cardano testnet environment but also significantly contributes to the broader development ecosystem, enabling developers to build more robust, diverse, and secure applications on the Cardano blockchain.
-
----
-
 ## 👉 Create a Graph-Native Query Layer
 
 ### 🚣 Your Mission
@@ -218,34 +178,32 @@ Roberto C. Morano
 
 ---
 
-## 👉 Proof-of-provenance for Software Artifacts
+## 👉 Enhanced Cardano Asset API Service
 
 ### 🚣 Your Mission
 
-_Software Supply Chain_ attacks are becoming increasingly common, and sophisticated, with attackers targeting software forges, code & artifacts repository, or even [taking over maintenance of well-known packages to inject backdoors](https://en.wikipedia.org/wiki/XZ_Utils_backdoor). This is particularly concerning for software powering global networks like Cardano which is used to manage valuable assets.
+Your challenge is to elevate the utility of the Cardano testnet by developing a versatile API service. This service will automate the minting and distribution of a diverse range of Cardano blockchain assets, including NFTs and native tokens, to specified payment addresses. This project is a significant step beyond the current capabilities of the [**Cardano faucet**](https://docs.cardano.org/cardano-testnet/tools/faucet/), which is limited to dispensing Ada. By integrating various asset types defined in the Cardano Improvement Proposals (CIPs), such as [CIP-25](https://cips.cardano.org/cip/CIP-0025) (Media Token Metadata Standard) and [CIP-54](https://cips.cardano.org/cip/CIP-0054) (Cardano Smart NFTs), you will be creating a tool that is indispensable for developers. This API will serve as a critical resource, providing them with a variety of test assets to enhance the development, testing, and optimization of wallets, blockchain explorers, and other applications/dApps. Your work will play a pivotal role in simulating real-world asset handling, crucial for the rigorous testing and preparation of applications before their deployment in production environments.
 
-On the other hand Cardano itself, being an extremely resilient, highly available, and decentralised network, could be a solid foundation to increase the security and traceability of software supply-chains. Providing signed and verifiable _proofs-of-provenance_ on-chain, stable identities, and tools and processes to trace and verify any software artifact to their author(s), would allow both software providers and consumers to build a strong web of trust.
+#### 📦 Expected Outcomes
 
-Your mission will consist in building such a system, comprising of an on-chain part, e.g. _smart contracts_, to enforce rules about software releases and signatures on-chain, and an off-chain part itself divided in two sub-parts: a web API and site to provide a central point for sharing informations about published artifacts, and SDKs in at least two major languages (e.g. Java, Go, Python, JS/TS) to ease publication and verification workflows in software development lifecycle.
+The project's output will be a fully functional API service capable of handling multiple asset types, requiring significant coding and testing.
 
-Some details are available [here](https://github.com/pragma-org/pop).
+### 🏄 Skills Required
 
-### 🏄 Skills required
+- Proficiency in Javascript(recommended) or Java, for minting assets.
+- Experience with RESTful API development.
+- Familiarity with blockchain technology, specifically Cardano's ecosystem.
+- Understanding of Cardano's native tokens and NFTs as per CIPs (like CIP-25, CIP-54, CIP-27, CIP-60, CIP-68).
 
-DevOps, Web API and apps development, software forges
+### 🐋 You'll Know Those Things After Summer
 
-Note:
-
-* We do not prescribe the language or tech stack to be used, this will be informed by the need to interact with Cardano network.
-* No prior knowledge of Cardano is required as the focus of the work is on the developers' facing part
-
-### 🐋 You'll know those things after summer
-
-Software supply-chain attacks and mitigation, software development lifecycle, forges ecosystem and supply-chain security
+In-depth knowledge of Cardano's blockchain and asset standards
+Experience in developing and deploying scalable blockchain APIs
+Expertise in integrating diverse blockchain assets into applications
 
 ### 🏋️ Difficulty
 
-Medium
+Intermediate – This project involves not only the technical aspects of API development and blockchain integration but also requires a deep understanding of the Cardano blockchain's native asset standards.
 
 ### 👕 Size
 
@@ -253,4 +211,15 @@ Medium
 
 ### 🎓 Possible Mentors
 
-Arnaud Bailly
+Jaime Caso
+
+### 🌍 Importance of Testnets in Blockchain Development
+
+The importance of testnets in blockchain development cannot be overstated. Testnets provide a sandbox environment where developers can experiment and test their applications without risking real funds or impacting the main blockchain. They are crucial for:
+
+- Ensuring the security and stability of new features before they are deployed on the mainnet.
+- Allowing developers to test the integration of different asset types and ensure compatibility with various wallet and explorer applications.
+- Facilitating the development and testing of smart contracts under real-world conditions without the associated risks.
+
+This challenge, therefore, not only enhances the capabilities of the Cardano testnet environment but also significantly contributes to the broader development ecosystem, enabling developers to build more robust, diverse, and secure applications on the Cardano blockchain.
+
