@@ -54,6 +54,64 @@ Arnaud Bailly
 
 ---
 
+## 👉 Decentralized Identity Wallet Integration with Single Sign-On (SSO)
+
+### 🚣 Your Mission
+
+The Cardano Foundation is actively developing an [open-source Identity Wallet](https://github.com/cardano-foundation/cf-identity-wallet) based on the principles of Self-Sovereign Identity (SSI) and the [Key Event Receipt Infrastructure (KERI)]((https://keri.one/)).
+
+<p align="center">
+  <kbd> 
+      <img src="https://github.com/cardano-foundation/cf-identity-wallet/blob/main/docs/images/readme/User-Flow-Preview.png" alt="User Flow Preview" width="720"/>
+  </kbd>
+</p>
+
+While the wallet already supports advanced features like secure enclaves, multi-sig identifiers, and credential exchange, there is an opportunity to bridge the gap between decentralized identity and the familiar Single Sign-On (SSO) flows used in Web2 applications (e.g., Google or social account logins).
+
+*Your mission* is to create a system that integrates the Identity Wallet with standard SSO flows. The project will involve building a website where users can:
+
+- Log in using Google or other social accounts.
+- Connect their decentralized identity wallet (via QR code).
+- Receive a verifiable credential in their wallet that proves they completed the SSO flow.
+- This credential can then be used to log in to other applications, providing both authentication and additional identity information in a decentralized and privacy-preserving manner.
+
+The project will demonstrate how decentralized identity can coexist with Web2 authentication systems, paving the way for broader adoption of SSI principles.
+
+#### 📦 Expected Outcomes
+
+A React-based single page application that supports:
+
+- SSO login with Google or other social accounts.
+- QR code-based connection to the Identity Wallet.
+- Issuance of verifiable credentials to the wallet.
+- A mechanism for applications to verify the credential and retrieve user information (with user consent).
+- Documentation and a library abstraction to enable developers to integrate this system into their own applications.
+
+### 🏄 Skills required
+
+- ReactJS
+- OAuth2 / OpenID Connect (SSO protocols)
+- Decentralized identity standards (e.g., KERI, Verifiable Credentials)
+
+### 🐋 You'll know those things after summer
+
+- How to integrate decentralized identity systems with Web2 authentication flows.
+- The principles of Self-Sovereign Identity (SSI) and Verifiable Credentials.
+- Best practices for secure and privacy-preserving identity management.
+
+### 🏋️ Difficulty
+
+Medium
+
+### 👕 Size
+
+350 hours
+
+### 🎓 Possible Mentors
+Thomas Mayfield, Jaime Caso
+
+---
+
 ## 👉 Connected Goods
 
 ### 🚣 Your Mission
