@@ -281,3 +281,55 @@ The importance of testnets in blockchain development cannot be overstated. Testn
 
 This challenge, therefore, not only enhances the capabilities of the Cardano testnet environment but also significantly contributes to the broader development ecosystem, enabling developers to build more robust, diverse, and secure applications on the Cardano blockchain.
 
+## 👉 SSOI Integration Platform with Identity Wallet
+
+### 🚣 Your Mission
+Self-Sovereign Onchain Identity (SSOI) represents an evolution of digital identity management that combines the principles of self-sovereign identity with the immutability and transparency of blockchain technology. This project will contribute significantly to the Cardano ecosystem by creating a bridge between traditional identity management and blockchain-based identity solutions, while also providing the necessary infrastructure for efficient SSOI data access and management. The Cardano Foundation's Identity Wallet already provides robust support for decentralized identities, and there's an opportunity to create a seamless bridge between SSOI systems and this existing infrastructure.
+
+Your mission is to develop a comprehensive integration platform that consists of three main components:
+
+1. An integration service that connects SSOI with the Cardano Foundation Identity Wallet, enabling seamless identity verification and credential management
+2. A UTxO-based RPC service for SSOI that leverages Cardano's extended UTxO model to handle identity-related transactions
+3. A high-performance indexer written in Go that monitors the Cardano blockchain for SSOI-related events and provides efficient query capabilities
+
+#### 📦 Expected Outcomes
+
+- A service that enables bi-directional communication between SSOI systems and the Identity Wallet
+- An RPC implementation that handles SSOI operations using Cardano's UTxO model
+- A Go-based indexing system that:
+  - Monitors and indexes SSOI-related transactions on the Cardano blockchain
+  - Provides a query API for accessing SSOI data
+  - Implements efficient caching and data retrieval mechanisms
+- Comprehensive documentation for all components
+- Integration tests and examples showing the complete workflow
+
+### 🏄 Skills required
+
+- Go programming language
+- Experience with blockchain indexing systems
+- Understanding of UTxO-based blockchain models
+- RESTful API development
+- Knowledge of identity management systems and protocols
+- Experience with concurrent programming
+
+### 🐋 You'll know those things after summer
+
+- Deep understanding of Self-Sovereign Identity principles and implementation
+- Cardano's extended UTxO model and its applications
+- Blockchain indexing strategies and optimization techniques
+- Integration patterns for decentralized identity systems
+- High-performance data processing with Go
+- Best practices for building scalable blockchain services
+
+### 🏋️ Difficulty
+
+Medium/Hard?
+
+### 👕 Size
+
+350 hours
+
+### 🎓 Possible Mentors
+
+Nelson Kshetrimayum, James Dunseith
+
