@@ -323,7 +323,7 @@ Your mission is to develop a comprehensive integration platform that consists of
 
 ### 🏋️ Difficulty
 
-Medium/Hard?
+Hard
 
 ### 👕 Size
 
