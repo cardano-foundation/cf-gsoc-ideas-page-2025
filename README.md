@@ -50,7 +50,7 @@ Medium
 
 ### 🎓 Possible Mentors
 
-Arnaud Bailly
+[Arnaud Bailly](https://github.com/abailly)
 
 ---
 
@@ -108,7 +108,7 @@ Medium
 350 hours
 
 ### 🎓 Possible Mentors
-Thomas Mayfield, Jaime Caso
+[Thomas Mayfield](https://github.com/ThomasADA), [Jaime Caso](https://github.com/jimcase)
 
 ---
 
@@ -146,7 +146,7 @@ Intermediate
 
 ### 🎓 Possible Mentors
 
-Fabian Bormann, Sebastian Bode
+[Fabian Bormann](https://github.com/fabianbormann), [Sebastian Bode](https://github.com/cleanerm5)
 
 ---
 
@@ -178,7 +178,7 @@ Intermediate
 
 ### 🎓 Possible Mentors
 
-Fabian Bormann, Jaime Caso
+[Fabian Bormann](https://github.com/fabianbormann), [Jaime Caso](https://github.com/jimcase)
 
 ---
 
@@ -232,7 +232,7 @@ Hard
 
 ### 🎓 Possible Mentors
 
-Roberto C. Morano
+[Roberto C. Morano](https://github.com/rcmorano)
 
 ---
 
@@ -286,5 +286,5 @@ Hard
 
 ### 🎓 Possible Mentors
 
-Nelson Kshetrimayum, James Dunseith
+[Nelson Kshetrimayum](https://github.com/nelson-ksh), [James Dunseith](https://github.com/workshop-maybe)
 
